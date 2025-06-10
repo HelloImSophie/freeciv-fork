@@ -44,7 +44,7 @@ jobs:
 
     - name: achvive
       shell: bash
-      run: tar -czvf freeciv-server.tar.gz ./build/freeciv-server ./build/libfreeciv.so ./freeciv/data/
+      run: tar -czvf freeciv-server.tar.gz ./build/freeciv-server ./build/libfreeciv.so ./data/
       
     - name: artifact
       uses: actions/upload-artifact@v4
